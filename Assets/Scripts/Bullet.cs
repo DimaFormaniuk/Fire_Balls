@@ -4,15 +4,17 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private float _speed;
+
+    private Vector3 _moveDiraction;
+
+    private void Start()
     {
-        
+        _moveDiraction = Vector3.forward;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
+        transform.Translate(_moveDiraction * _speed * Time.deltaTime);
     }
 }
