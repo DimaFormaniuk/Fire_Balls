@@ -1481,6 +1481,8 @@ MonoBehaviour:
   _towerSize: 7
   _buildPoint: {fileID: 1967858917}
   _block: {fileID: 1659492180627446436, guid: 05db1d055d95f7f40aa7f69945a9cfbd, type: 3}
+  _colors:
+  - {r: 0.52843094, g: 0.7924528, b: 0.41416872, a: 1}
 --- !u!114 &1967858919
 MonoBehaviour:
   m_ObjectHideFlags: 0
