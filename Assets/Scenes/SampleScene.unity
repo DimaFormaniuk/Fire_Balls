@@ -298,6 +298,7 @@ MonoBehaviour:
   _shootPoint: {fileID: 1731437871}
   _bulletTemplate: {fileID: 5134958312514012333, guid: 58fcc3b7bade1e944a10a5a1b2aeae17, type: 3}
   _delayBetweenShoots: 0.25
+  _recoilDistance: 0.2
 --- !u!850595691 &427240811
 LightingSettings:
   m_ObjectHideFlags: 0
