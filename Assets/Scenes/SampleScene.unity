@@ -994,7 +994,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _towerSize: 50
   _buildPoint: {fileID: 1967858917}
-  _block: {fileID: 5934709945080283224, guid: a6b996d57f6db7b4a98161042f01a453, type: 3}
+  _block: {fileID: 1659492180627446436, guid: 05db1d055d95f7f40aa7f69945a9cfbd, type: 3}
 --- !u!114 &1967858919
 MonoBehaviour:
   m_ObjectHideFlags: 0
