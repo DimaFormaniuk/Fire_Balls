@@ -992,7 +992,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5028d4f4e4a4cc4f9627a315e5606d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _towerSize: 50
+  _towerSize: 7
   _buildPoint: {fileID: 1967858917}
   _block: {fileID: 1659492180627446436, guid: 05db1d055d95f7f40aa7f69945a9cfbd, type: 3}
 --- !u!114 &1967858919

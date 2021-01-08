@@ -10,11 +10,6 @@ public class TowerBuilder : MonoBehaviour
 
     private List<Block> _blocks;
 
-    private void Start()
-    {
-        Build();
-    }
-
     public List<Block> Build()
     {
         _blocks = new List<Block>();
