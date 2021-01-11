@@ -36,5 +36,15 @@ public class Tower : MonoBehaviour
         }
 
         SizeUpdate?.Invoke(_blocks.Count);
+
+        CheckFinishLevel(_blocks.Count);
+    }
+
+    private void CheckFinishLevel(int size)
+    {
+        if (size == 0)
+        {
+            Debug.Log("This level finish");
+        }
     }
 }

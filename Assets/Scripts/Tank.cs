@@ -6,7 +6,7 @@ using DG.Tweening;
 public class Tank : MonoBehaviour
 {
     [SerializeField] private Transform _shootPoint;
-    [SerializeField] private Bullet _bulletTemplate;
+    [SerializeField] private Bullet[] _bulletTemplate;
     [SerializeField] private float _delayBetweenShoots;
     [SerializeField] private float _recoilDistance;
 
@@ -29,6 +29,6 @@ public class Tank : MonoBehaviour
 
     private void Shoot()
     {
-        Instantiate(_bulletTemplate, _shootPoint.position, Quaternion.identity);
+        Instantiate(_bulletTemplate[Random.Range(0,_bulletTemplate.Length)], _shootPoint.position, Quaternion.identity);
     }
 }
