@@ -1,11 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using TMPro;
 using UnityEngine;
 
-public class TowerSizeView : MonoBehaviour
+public class CheckFinishLevel : MonoBehaviour
 {
-    [SerializeField] private TMP_Text _sizeView;
     [SerializeField] private Tower _tower;
 
     private void OnEnable()
@@ -20,7 +18,9 @@ public class TowerSizeView : MonoBehaviour
 
     private void OnSizeUpdated(int size)
     {
-        _sizeView.text = size.ToString();
+        if (size == 0)
+        {
+            Debug.Log("This level finish");
+        }
     }
-
 }
