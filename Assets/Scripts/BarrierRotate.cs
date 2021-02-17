@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Bullet : MonoBehaviour
+public class BarrierRotate : MonoBehaviour
 {
     [SerializeField] private float _speed;
 
     private void FixedUpdate()
     {
-        transform.position += Vector3.forward * _speed * Time.fixedDeltaTime;
+        transform.rotation = Quaternion.Euler(new Vector3(0, transform.rotation.eulerAngles.y + _speed * Time.fixedDeltaTime, 0));
     }
 }
